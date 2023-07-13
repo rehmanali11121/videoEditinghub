@@ -68,7 +68,7 @@ body {
   background-position: bottom;
 }
 
-.sub_page .hero_area {
+.sub_page1 .hero_area {
   height: auto;
   background: none;
   background-color: #041858;
@@ -290,6 +290,32 @@ background-color: white;
 .btn-2:hover {
     background-color: #d8bf36;
     color: #ffffff;
+}
+.btn-3 {
+  width: 9rem;
+  text-align: center;
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #d8bf36;
+  color: #ffffff;
+  border-radius: 30px;
+  border:none;
+}
+.text-link {
+  color: #ffffff;
+}
+
+.text-link:hover,
+.text-link:focus {
+  color: #d8bf36;
+}
+
+.text-link:active {
+  color: #d8bf36;
+}
+.btn-3:hover {
+  background-color: #ebd972ee;
+  color: #ffffff;
 }
 .primary_color{
   color: #d8bf36 !important;
@@ -937,4 +963,79 @@ background-color: white;
 /*# sourceMappingURL=style.css.map */
 .margin_right_0{
 margin-right: 0 !important;
+}
+.font-medium{
+  font-size: medium;
+}
+.font-large {
+  font-size:large;
+}
+.font-larger{
+  font-size: larger;
+}
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0;
+}
+
+.rate:not(:checked)>input {
+  position: absolute;
+  top: -9999px;
+}
+
+.rate:not(:checked)>label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+  content: '★ ';
+}
+
+.rate>input:checked~label {
+  color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+  color: #deb217;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+  color: #c59b08;
+}
+.card .shadow-sm:hover{
+box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+@media (min-width: 768px) {
+
+  /* Styles for tablets and larger screens */
+  .detail_box {
+    padding-left: 5rem !important;
+
+  }
+  .navbar-brand{
+    padding-left: 7.5rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+
+  /* Styles for desktop screens */
+  .detail_box {
+    padding-left: 5rem !important;
+  }
+    .navbar-brand {
+      padding-left: 7.5rem !important;
+    }
 }
