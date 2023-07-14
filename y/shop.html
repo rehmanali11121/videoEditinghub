@@ -107,7 +107,7 @@
                                     <!-- Add more duration options here -->
                                 </select>
                             </div>
-                            <button class="btn-3 w-100" id="cartContinue">Continue</button>
+                            <button class="btn-3 w-100 cartContinue" id="cartContinue">Continue</button>
                         </div>
                     </div>
                 </div>
@@ -142,7 +142,7 @@
                                     <!-- Add more duration options here -->
                                 </select>
                             </div>
-                            <button class="btn-3 w-100" id="cartContinue">Continue</button>
+                            <button class="btn-3 w-100 cartContinue" id="cartContinue">Continue</button>
                         </div>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
                                     <!-- Add more duration options here -->
                                 </select>
                             </div>
-                            <button class="btn-3 w-100" id="cartContinue">Continue</button>
+                            <button class="btn-3 w-100 cartContinue" id="cartContinue">Continue</button>
                         </div>
                     </div>
                 </div>
@@ -267,16 +267,17 @@
         <!-- footer section -->
 
     </div>
-<script>
-    const cartContinueButton = document.getElementById('cartContinue');
-    cartContinueButton.addEventListener('click', function () {
-        window.location.href = 'shop_detail.html';
-    });
-</script>
+
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
-
+<script>
+    $(document).ready(function () {
+        $('.cartContinue').click(function () {
+            window.location.href = 'shop_detail.html';
+        });
+    });
+</script>
 </body>
 
 </html>
