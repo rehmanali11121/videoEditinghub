@@ -741,7 +741,7 @@ background-color: white;
   background-image: url(../images/footer-bg.png);
   background-size: cover;
   background-position: right top;
-  padding-top: 250px;
+  padding-top: 125px;
 }
 
 .contact_section {
@@ -974,7 +974,7 @@ margin-right: 0 !important;
   font-size: larger;
 }
 .rate {
-  float: left;
+  float: right;
   height: 46px;
   padding: 0;
 }
