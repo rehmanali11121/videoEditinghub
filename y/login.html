@@ -12,7 +12,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Shop</title>
+    <title>Login or Sign Up</title>
 
     <!-- slider stylesheet -->
     <link rel="stylesheet" type="text/css"
@@ -62,7 +62,7 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="shop.html"> Shop</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item ">
                                     <a class="nav-link" href="report_us.html"> Report us </a>
                                 </li>
                                 <li class="nav-item">
@@ -81,104 +81,41 @@
     </div>
 
 
-    <!-- Shop section -->
-    <section class="about_section pt-4">
+    <!-- login page -->
+    <section class="about_section pt-3 pb-0">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <img src="./images/creating_video-10-min.gif" class="card-img-top" alt="Item Image" height="200px">
-                        <div class="card-body">
-                            <h5 class="card-title">Small Package</h5>
-                            <p class="card-text">Description of the item goes here.</p>
-                            <div class="form-group">
-                                <label for="duration">Edit Duration:</label>
-                                <select class="form-control" id="duration">
-                                    <option value="0">0 to 1 min - $35</option>
-                                    <option value="1">1 to 2 min - $50</option>
-                                    <option value="2">2 to 3 min - $65</option>
-                                    <option value="3">3 to 4 min - $80</option>
-                                    <option value="4">4 to 5 min - $95</option>
-                                    <option value="5">5 to 6 min - $110</option>
-                                    <option value="6">6 to 7 min - $125</option>
-                                    <option value="7">7 to 8 min - $140</option>
-                                    <option value="8">8 to 9 min - $145</option>
-                                    <option value="9">9 to 10 min - $150</option>
-                                    <!-- Add more duration options here -->
-                                </select>
-                            </div>
-                            <button class="btn-3 w-100 cartContinue" id="cartContinue">Continue</button>
+                <div class="col-md-6">
+                    <div class="detail-box">
+                        <div class="heading_container">
+                            <h2>
+                                Login
+                            </h2>
+                        </div>
+                        <div class="login_form pt-3">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password:</label>
+                                    <input type="password" id="password" name="password" class="form-control" required>
+                                </div>
+                                <button type="submit" class="btn-3">Login</button>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <img src="./images/creating_video-1-min.gif" class="card-img-top" alt="Item Image" height="200px">
-                        <div class="card-body">
-                            <h5 class="card-title">Medium Package</h5>
-                            <p class="card-text">Description of the item goes here.</p>
-                            <div class="form-group">
-                                <label for="duration">Edit Duration:</label>
-                                <select class="form-control" id="duration">
-                                    <option value="0">10 to 11 min - $180</option>
-                                    <option value="1">11 to 12 min - $190</option>
-                                    <option value="2">12 to 13 min - $200</option>
-                                    <option value="3">13 to 14 min - $205</option>
-                                    <option value="4">14 to 15 min - $215</option>
-                                    <option value="5">15 to 16 min - $220</option>
-                                    <option value="6">16 to 17 min - $230</option>
-                                    <option value="7">17 to 18 min - $250</option>
-                                    <option value="8">18 to 19 min - $250</option>
-                                    <option value="9">19 to 20 min - $260</option>
-                                    <option value="9">20 to 21 min - $270</option>
-                                    <option value="9">21 to 22 min - $280</option>
-                                    <option value="9">23 to 24 min - $290</option>
-                                    <option value="9">24 to 25 min - $300</option>
-                                    <option value="9">25 to 26 min - $310</option>
-                                    <option value="9">26 to 27 min - $320</option>
-                                    <option value="9">27 to 28 min - $330</option>
-                                    <option value="9">28 to 29 min - $340</option>
-                                    <option value="9">29 to 30 min - $350</option>
-                                    <!-- Add more duration options here -->
-                                </select>
-                            </div>
-                            <button class="btn-3 w-100 cartContinue" id="cartContinue">Continue</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <img src="./images/creating_video-10-min.gif" class="card-img-top" alt="Item Image" height="200px">
-                        <div class="card-body">
-                            <h5 class="card-title">Large Package</h5>
-                            <p class="card-text">Description of the item goes here.</p>
-                            <div class="form-group">
-                                <label for="duration">Edit Duration:</label>
-                                <select class="form-control" id="duration">
-                                    <option value="0">30 to 40 min - $400</option>
-                                    <option value="1">40 to 50 min - $450</option>
-                                    <option value="2">50M to 01 Hour - $550</option>
-                                    <option value="3">10H to 01H 10M - $600</option>
-                                    <option value="3">01H 10M to 01Hour 20M - $650</option>
-                                    <option value="3">01H 20M to 01Hour 30M - $700</option>
-                                    <option value="3">01H 30M to 01Hour 40M - $800</option>
-                                    <option value="3">01H 40M to 01Hour 50M - $900</option>
-                                    <option value="3">01H 50M to 02Hour - $1000</option>
-                                    <!-- Add more duration options here -->
-                                </select>
-                            </div>
-                            <button class="btn-3 w-100 cartContinue" id="cartContinue">Continue</button>
-                        </div>
-                    </div>
+                <div class="col-md-6">
+                    <img src="images/about_image1.jpg" alt="" style="height: auto;width: 100%;">
                 </div>
             </div>
         </div>
     </section>
-    <!-- end shop section -->
-
+    <!-- end login page -->
 
     <div class="footer_bg">
-    
         <!-- footer section -->
         <section class="container-fluid footer_section">
             <div class="container">
@@ -207,7 +144,6 @@
                             </div>
                             <textarea placeholder="Write your review" class="form-control"></textarea>
                             <div class="row justify-content-center">
-    
                                 <a type="submit" class="btn-2 w-100 m-3 " style="border-radius: 5px;">Submit</a>
                             </div>
                         </form>
@@ -226,17 +162,10 @@
         <!-- end footer_section -->
     </div>
 
-
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
-<script>
-    $(document).ready(function () {
-        $('.cartContinue').click(function () {
-            window.location.href = 'shop_detail.html';
-        });
-    });
-</script>
+
 </body>
 
 </html>
