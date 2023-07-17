@@ -66,9 +66,9 @@
                                     <a class="nav-link" href="report_us.html"> Report us </a>
                                 </li>
                                 <li class="nav-item">
-                                    <div class="btn-box pt-2">
-                                        <a href="signup.html" class="btn-1">Sign Up</a>
-                                        <a href="login.html" class="btn-2">Login</a>
+                                    <div class="btn-box pt-2 row justify-content-center">
+                                        <a href="signup.html" class="btn-1 col-md-5 col-5 mr-1">Sign Up</a>
+                                        <a href="login.html" class="btn-2 col-md-5 col-5 mr-1">Login</a>
                                     </div>
                                 </li>
                             </ul>
@@ -83,38 +83,83 @@
     <!-- signup page -->
     <section class="about_section pt-3 pb-0">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="detail-box">
-                        <div class="heading_container">
-                            <h2>
-                                Sign Up
-                            </h2>
+            <div class="row justify-content-center">
+                <div class="col-md-7">
+                    <div class="accordion" id="signupAccordion">
+                        <div class="card">
+                            <div class="card-header bg_primary" id="clientSignupHeading">
+                                <h2 class="mb-0">
+                                    <button class="btn text-white font-large" type="button" data-toggle="collapse"
+                                        data-target="#clientSignupCollapse" aria-expanded="false"
+                                        aria-controls="clientSignupCollapse">
+                                        Client Sign Up
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="clientSignupCollapse" class="collapse show" aria-labelledby="clientSignupHeading"
+                                data-parent="#signupAccordion">
+                                <div class="card-body">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <label for="clientName">Username:</label>
+                                            <input type="text" id="clientName" name="clientName" class="form-control" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="clientEmail">Email:</label>
+                                            <input type="email" id="clientEmail" name="clientEmail" class="form-control"
+                                                required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="clientPassword">Password:</label>
+                                            <input type="password" id="clientPassword" name="clientPassword"
+                                                class="form-control" required>
+                                        </div>
+                                        <button type="submit" class="btn-3">Sign Up</button>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
-                        <div class="signup_form pt-3">
-                            <form action="">
-                                <div class="form-group">
-                                    <label for="name">Name:</label>
-                                    <input type="text" id="name" name="name" class="form-control" required>
+                        <div class="card">
+                            <div class="card-header bg_primary" id="workerSignupHeading">
+                                <h2 class="mb-0">
+                                    <button class="btn text-white font-large collapsed" type="button" data-toggle="collapse"
+                                        data-target="#workerSignupCollapse" aria-expanded="false"
+                                        aria-controls="workerSignupCollapse">
+                                        Sign Up as Worker
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="workerSignupCollapse" class="collapse" aria-labelledby="workerSignupHeading"
+                                data-parent="#signupAccordion">
+                                <div class="card-body">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <label for="workerName">Username:</label>
+                                            <input type="text" id="workerName" name="workerName" class="form-control" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="workerEmail">Email:</label>
+                                            <input type="email" id="workerEmail" name="workerEmail" class="form-control"
+                                                required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="workerPassword">Password:</label>
+                                            <input type="password" id="workerPassword" name="workerPassword"
+                                                class="form-control" required>
+                                        </div>
+                                        <button type="submit" class="btn-3">Sign Up</button>
+                                    </form>
                                 </div>
-                                <div class="form-group">
-                                    <label for="email">Email:</label>
-                                    <input type="email" id="email" name="email" class="form-control" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="password">Password:</label>
-                                    <input type="password" id="password" name="password" class="form-control" required>
-                                </div>
-                                <button type="submit" class="btn-3">Sign Up</button>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                     <img src="images/about_image1.jpg" alt="" style="height: auto;width: 100%;">
-                </div>
+                </div> -->
             </div>
         </div>
+
     </section>
     <!-- end signup page -->
 

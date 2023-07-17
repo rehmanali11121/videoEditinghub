@@ -66,9 +66,9 @@
                                     <a class="nav-link" href="report_us.html"> Report us </a>
                                 </li>
                                 <li class="nav-item">
-                                    <div class="btn-box pt-2">
-                                        <a href="signup.html" class="btn-1">Sign Up</a>
-                                        <a href="login.html" class="btn-2">Login</a>
+                                    <div class="btn-box pt-2 row justify-content-center">
+                                        <a href="signup.html" class="btn-1 col-md-5 col-5 mr-1">Sign Up</a>
+                                        <a href="login.html" class="btn-2 col-md-5 col-5 mr-1">Login</a>
                                     </div>
                                 </li>
                             </ul>
@@ -80,36 +80,69 @@
         <!-- end header section -->
     </div>
 
-
     <!-- login page -->
     <section class="about_section pt-3 pb-0">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="detail-box">
-                        <div class="heading_container">
-                            <h2>
-                                Login
-                            </h2>
+            <div class="row justify-content-center">
+                <div class="col-md-7">
+                    <div class="accordion" id="loginAccordion">
+                        <div class="card">
+                            <div class="card-header bg_primary" id="clientLoginHeading">
+                                <h2 class="mb-0">
+                                    <button class="btn text-white font-large" type="button" data-toggle="collapse" data-target="#clientLoginCollapse"
+                                        aria-expanded="false" aria-controls="clientLoginCollapse">
+                                        Client Login
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="clientLoginCollapse" class="collapse show" aria-labelledby="clientLoginHeading"
+                                data-parent="#loginAccordion">
+                                <div class="card-body">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <label for="clientUsername">Username or Email:</label>
+                                            <input type="text" id="clientUsername" name="clientUsername" class="form-control" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="clientPassword">Password:</label>
+                                            <input type="password" id="clientPassword" name="clientPassword" class="form-control" required>
+                                        </div>
+                                        <button type="submit" class="btn-3">Login</button>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
-                        <div class="login_form pt-3">
-                            <form action="">
-                                <div class="form-group">
-                                    <label for="email">Email:</label>
-                                    <input type="email" id="email" name="email" class="form-control" required>
+                        <div class="card">
+                            <div class="card-header bg_primary" id="workerLoginHeading">
+                                <h2 class="mb-0">
+                                    <button class="btn text-white font-large collapsed" type="button" data-toggle="collapse"
+                                        data-target="#workerLoginCollapse" aria-expanded="false" aria-controls="workerLoginCollapse">
+                                        Login as Worker
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="workerLoginCollapse" class="collapse" aria-labelledby="workerLoginHeading"
+                                data-parent="#loginAccordion">
+                                <div class="card-body">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <label for="workerUsername">Username:</label>
+                                            <input type="text" id="workerUsername" name="workerUsername" class="form-control" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="workerPassword">Password:</label>
+                                            <input type="password" id="workerPassword" name="workerPassword" class="form-control" required>
+                                        </div>
+                                        <button type="submit" class="btn-3">Login</button>
+                                    </form>
                                 </div>
-                                <div class="form-group">
-                                    <label for="password">Password:</label>
-                                    <input type="password" id="password" name="password" class="form-control" required>
-                                </div>
-                                <button type="submit" class="btn-3">Login</button>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                     <img src="images/about_image1.jpg" alt="" style="height: auto;width: 100%;">
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

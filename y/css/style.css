@@ -667,7 +667,12 @@ background-color: white;
   color: #ffffff;
   border-radius: 30px;
 }
-
+.founder-card:hover{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+.bg_primary{
+    background-color: #041858 !important;
+}
 .team_section .btn-box a:hover {
   background-color: #e0cd61;
 }
