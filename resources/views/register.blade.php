@@ -19,7 +19,7 @@
         <br><br>
         <input type="password" name="password_confirmation" placeholder="Enter Confirm Password">
         <br><br>
-        <input type="submit" value="Register">a
+        <input type="submit" value="Register">
 
     </form>
 

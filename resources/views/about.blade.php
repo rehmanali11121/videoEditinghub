@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>About Us</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="./css/CenturyGothic.ttf" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page1">
+
+<div class="hero_area">
+  <!-- header section strats -->
+  <header class="header_section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a class="navbar-brand" href="index.html">
+          <span>
+            <img src="./images/video_editing_logo.png" width="200px" alt="VideoEditingHub">
+          </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="s-1"> </span>
+          <span class="s-2"> </span>
+          <span class="s-3"> </span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html"> Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="report_us.html"> Report us </a>
+              </li>
+              <li class="nav-item">
+                <div class="btn-box pt-2 row justify-content-center">
+                  <a href="signup.html" class="btn-1 col-md-5 col-5 mr-1">Sign Up</a>
+                  <a href="login.html" class="btn-2 col-md-5 col-5 mr-1">Login</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header section -->
+</div>
+
+
+<!-- about section -->
+
+  <section class="about_section pt-0 pb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="">
+            <img src="images/about_image1.jpg" alt="" style="height: auto;width: 100%;">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About Us
+              </h2>
+            </div>
+            <p class="font-large">
+              We bring your vision to life through professional video editing. Our skilled team is dedicated to delivering
+              exceptional
+              results that exceed your expectations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about section -->
+  <!-- about section -->
+<!-- about section -->
+<section class="about_section">
+  <div class="container">
+    <div class="row pb-4">
+      <div class="col-md-12">
+        <div class="card shadow-sm">
+          <div class="card-body ">
+            <div class="heading_container">
+              <h2>Founder's Vision</h2>
+            </div>
+            <p class="font-larger">Damilola Aigwedo, the visionary behind our video editing service, recognized the need
+              for affordable yet professional video editing in today's digital age. With a passion for storytelling and
+              a keen eye for detail, Damilola sought to create a platform that offers exceptional editing services
+              without compromising on quality.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row pb-4">
+      <div class="col-md-12">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <div class="heading_container">
+              <h2>Fair Prices</h2>
+            </div>
+            <p class="font-larger">We believe that everyone should have access to top-notch video editing services,
+              regardless of budget constraints. That's why we have carefully designed our pricing structure to be fair
+              and transparent. Our goal is to provide cost-effective solutions that cater to a wide range of clients,
+              from individual content creators to small businesses and beyond.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row pb-4">
+      <div class="col-md-12">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <div class="heading_container">
+              <h2>Professional Expertise</h2>
+            </div>
+            <p class="font-larger">Our team consists of highly skilled and experienced video editors who are dedicated
+              to delivering exceptional results. We understand the nuances of storytelling and the impact that effective
+              editing can have on the final product. With our keen attention to detail and technical proficiency, we
+              strive to exceed your expectations and bring your creative vision to life.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row pb-4">
+      <div class="col-md-12">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <div class="heading_container">
+              <h2>Customer Satisfaction</h2>
+            </div>
+            <p class="font-larger">At our video editing service, your satisfaction is our top priority. We believe in
+              building strong relationships with our clients and fostering open communication throughout the editing
+              process. We take the time to understand your unique requirements, allowing us to tailor our services to
+              meet your specific needs. Your feedback is invaluable to us, and we welcome any input to ensure that the
+              final product exceeds your expectations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row pb-4">
+      <div class="col-md-12">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <div class="heading_container">
+              <h2>Creativity and Collaboration</h2>
+            </div>
+            <p class="font-larger">We value creativity and collaboration in every project we undertake. Our team is not
+              only proficient in technical editing skills but also adept at conceptualizing ideas and enhancing your
+              original footage. We work closely with you to understand your vision and goals, infusing our expertise to
+              elevate your video to its fullest potential. Together, we create engaging and impactful content that
+              resonates with your audience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row pb-4">
+      <div class="col-md-12">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <div class="heading_container">
+              <h2>Get in Touch</h2>
+            </div>
+            <p class="font-larger">We are excited to embark on this journey with you, bringing your videos to life
+              through our expert editing services. Whether you are an individual content creator, a business owner, or
+              anyone in need of professional video editing, we are here to help. Reach out to us today and let us turn
+              your raw footage into a captivating visual masterpiece. Together, we'll make your videos shine!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end about section -->
+<!-- Founder Section  -->
+<section class="founder_section">
+  <div class="container pb-4">
+    <div class="heading_container">
+      <h2>V.E.H Founders</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4 pt-2">
+        <a href="#">
+          <div class="card shadow-sm founder-card">
+            <div class="row justify-content-center pt-2">
+              <img src="images/client.png" class="rounded-circle justify-content-center p-2 border" height="200" width="200"
+                alt="...">
+            </div>
+            <div class="card-body text-center ">
+              <h5 class="card-title">Dami Aigwedo</h5>
+              <p class="card-text text-justify">Meet Dami Aigwedo,The idea struck Dami during a contemplative evening, as he envisioned a space where
+              talented editors could showcase their craft while catering to the needs of those seeking professional video editing
+              services.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 pt-2">
+        <a href="#">
+          <div class="card shadow-sm founder-card">
+            <div class="row justify-content-center pt-2">
+              <img src="images/client.png" class="rounded-circle justify-content-center p-2 border" height="200" width="200"
+                alt="...">
+            </div>
+            <div class="card-body text-center ">
+              <h5 class="card-title">Rogers Aigwedo</h5>
+              <p class="card-text text-justify">Description here</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 pt-2">
+        <a href="">
+          <div class="card shadow-sm founder-card">
+            <div class="row justify-content-center pt-2">
+              <img src="images/client.png" class="rounded-circle justify-content-center p-2 border" height="200" width="200"
+                alt="...">
+            </div>
+            <div class="card-body text-center ">
+              <h5 class="card-title">Demi Aigwedo</h5>
+              <p class="card-text text-justify">Meet Demi Aigwedo, the organizational genius behind VideoEditingHub. With an eye for detail and a passion for
+              efficiency, Demilade ensures the platform runs flawlessly,Thanks to his expertise.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- end founder section -->
+
+  <div class="footer_bg">
+  
+    <!-- footer section -->
+    <section class="container-fluid footer_section">
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-md-5">
+            <h4 class="text-white text-end text-right">Add Review</h4>
+            <form action="">
+              <div class="row">
+                <div class="col-md-4 col-5 mt-3">
+                  <a href="review.html" class="text-link">View Reviews</a>
+                </div>
+                <div class="col-md-8 col-7 ">
+                  <div class="rate">
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1 star</label>
+                  </div>
+                </div>
+              </div>
+              <textarea placeholder="Write your review" class="form-control"></textarea>
+              <div class="row justify-content-center">
+                <a type="submit" class="btn-2 w-100 m-3 " style="border-radius: 5px;">Submit</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <p class="font-large">
+              &copy; <span id="displayYear"></span> All Rights Reserved By
+              <a href="/">VideoEditingHub.Pro</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end footer_section -->
+  </div>
+
+  
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+  
+  </body>
+  
+  </html>

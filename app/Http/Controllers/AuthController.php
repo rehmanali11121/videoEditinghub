@@ -43,7 +43,8 @@ class AuthController extends Controller
             $route = $this->redirectDash();
             return redirect($route);
         }
-        return view('login');
+        // return view('login');
+        return view('user.dashboard');
     }
 
     public function login(Request $request)
